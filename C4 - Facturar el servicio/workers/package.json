@@ -1,0 +1,15 @@
+{
+  "name": "c4-facturar-workers",
+  "version": "1.0.0",
+  "description": "Workers (External Tasks) y simulador de entradas del proceso C4 · Facturar el servicio de energía — ENEL La Corocora (Camunda 7)",
+  "main": "c4-workers.js",
+  "type": "module",
+  "scripts": {
+    "workers": "node c4-workers.js",
+    "simular": "node simular-entradas.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "camunda-external-task-client-js": "^3.0.0"
+  }
+}

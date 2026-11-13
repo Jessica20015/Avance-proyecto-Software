@@ -1,0 +1,15 @@
+{
+  "name": "c7-atender-pqr-workers",
+  "version": "1.0.0",
+  "description": "Workers (External Tasks) y simulador de entradas del proceso C7 · Atender una PQR del usuario — ENEL La Corocora (Camunda 7)",
+  "main": "c7-workers.js",
+  "type": "module",
+  "scripts": {
+    "workers": "node c7-workers.js",
+    "simular": "node simular-entradas.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "camunda-external-task-client-js": "^3.0.1"
+  }
+}

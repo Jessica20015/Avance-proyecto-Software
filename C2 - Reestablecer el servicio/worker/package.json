@@ -1,0 +1,8 @@
+{
+  "name": "emsa-external-task-worker",
+  "version": "1.0.0",
+  "description": "Worker de demostración para los service tasks externos del proceso EMSA (Camunda 7.23)",
+  "main": "worker.js",
+  "scripts": { "start": "node worker.js" },
+  "dependencies": { "camunda-external-task-client-js": "^3.0.0" }
+}
